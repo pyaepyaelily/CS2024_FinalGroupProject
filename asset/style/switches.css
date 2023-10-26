@@ -1,0 +1,31 @@
+.banner-container-fluid {
+    width: 100%;
+    overflow: hidden;
+}
+
+.switchesTitle {
+    text-align: left;
+}
+
+.switchesHeading {
+    position: relative;
+}
+
+.switchesHeading::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    bottom: -3px;
+    left: 0;
+}
+
+.switchesDiv{
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
