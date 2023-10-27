@@ -18,6 +18,9 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
+    <!-- Other js/styles -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Own styles and js -->
     <link rel="stylesheet" href="asset\style\general.css">
     <link rel="stylesheet" href="asset\style\linearSwitches.css">
@@ -35,7 +38,7 @@
                 <li class="breadcrumb-item active" aria-current="page">Linear</li>
             </ol>
         </nav>
-
+        <br>
         <!-- Content -->
         <div class="container">
             <div class="switchesDiv">
@@ -57,14 +60,23 @@
                             eros.
                             Vestibulum aliquam orci laoreet, tempor ex a, sodales dui.
                         </p>
-                        
+
+                        <div class="form-outline" style="width: 100px;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" id="typeNumber" class="form-control" min="1" max="200" value="1" />
+                        </div>
+
+                        <br>
+                        <button type="button" class="btn btn-light">Add to Cart</button>
                     </div>
                 </div>
             </div>
-        </div>
-        
 
-    </div>
+
+        </div>
+
+
+
 </body>
 
 </html>
