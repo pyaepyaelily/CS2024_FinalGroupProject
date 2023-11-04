@@ -11,3 +11,43 @@ a {
 .container {
     margin: 0;
 }
+
+
+/*-------------------------- Quantity Button*/
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.qty-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d4d4d4;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus {
+  border: none;
+  padding: 8px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 0;
+  background-color: transparent;
+}
+
+.qty-container .input-qty {
+  text-align: center;
+  border: none;
+  max-width: 50px;
+  background-color: transparent;
+}
+
+
