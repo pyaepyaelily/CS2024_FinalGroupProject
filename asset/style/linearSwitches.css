@@ -2,3 +2,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.add-to-cart-btn{
+    background-color: #213555;
+    color: white;
+}
+
+.container {
+    margin: 0;
+}
