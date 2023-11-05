@@ -20,61 +20,79 @@
 
     <!-- Other js/styles -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Own styles and js -->
     <link rel="stylesheet" href="asset\style\general.css">
     <link rel="stylesheet" href="asset\style\linearSwitches.css">
+    <script src="asset\js\button.js"></script>
 
 </head>
 
 <body>
     <div class="page-content">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="cat.html">All Products</a></li>
-                <li class="breadcrumb-item"><a href="switches.html">Switches</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Linear</li>
-            </ol>
-        </nav>
-        <br>
         <!-- Content -->
-        <div class="container">
-            <div class="switchesDiv">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Breadcrumb -->
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="cat.html">All Products</a></li>
+                            <li class="breadcrumb-item"><a href="switches.html">Switches</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Linear</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-6">
+                    <!-- Image -->
+                    <div>
                         <img src="asset\img\catImg.webp" class="card-img-top" alt="...">
                     </div>
-                    <div class="col">
-                        <h1>Linear Switches</h1>
-                        <p>Cras eleifend pharetra facilisis. Nam ut ligula et sapien aliquet posuere. Donec sapien
-                            libero, egestas in lorem vel, rutrum lacinia sem.
-                            Nunc pharetra auctor condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Maecenas ut neque congue, malesuada enim non, finibus arcu.
-                            Vestibulum ultrices lobortis libero, in eleifend mauris. Pellentesque dapibus ante sed diam
-                            venenatis, non pretium nibh euismod.
-                            Donec facilisis rhoncus felis luctus blandit. Nunc id fermentum diam. Mauris felis turpis,
-                            suscipit eu congue et, egestas at neque. Nulla facilisi.
-                            Maecenas condimentum semper iaculis. Donec et arcu mattis, placerat neque sit amet, iaculis
-                            eros.
-                            Vestibulum aliquam orci laoreet, tempor ex a, sodales dui.
-                        </p>
+                </div>
+                <div class="col-6">
+                    <!-- Description -->
+                    <h1>Linear Switches</h1>
+                    <p>Cras eleifend pharetra facilisis. Nam ut ligula et sapien aliquet posuere. Donec sapien libero,
+                        egestas in lorem vel, rutrum lacinia sem. Nunc pharetra auctor condimentum. Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit. Maecenas ut neque congue, malesuada enim non, finibus
+                        arcu. Vestibulum ultrices lobortis libero, in eleifend mauris. Pellentesque dapibus ante sed
+                        diam venenatis, non pretium nibh euismod. Donec facilisis rhoncus felis luctus blandit. Nunc id
+                        fermentum diam. Mauris felis turpis, suscipit eu congue et, egestas at neque. Nulla facilisi.
+                        Maecenas condimentum semper iaculis. Donec et arcu mattis, placerat neque sit amet, iaculis
+                        eros. Vestibulum aliquam orci laoreet, tempor ex a, sodales dui.</p>
 
-                        <div class="form-outline" style="width: 100px;">
-                            <label class="form-label" for="typeNumber">Quantity</label>
-                            <input type="number" id="typeNumber" class="form-control" min="1" max="200" value="1" />
+                    <!-- <div class="form-outline" style="width: 100px;">
+                        <label class="form-label" for="typeNumber">Quantity</label>
+                        <input type="number" id="typeNumber" class="form-control" min="1" max="200" value="1" />
+                    </div> -->
+
+                    <!-- <div class="qty-container">
+                        <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                        <input type="text" name="qty" value="1" class="input-qty" min="1" readonly />
+                        <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button>
+                    </div> -->
+                    
+
+                    <div class="qty-container">
+                        <div class="quantity-box">
+                            <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                            <input type="text" name="qty" value="1" class="input-qty" min="1" readonly />
+                            <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button>
                         </div>
-
-                        <br>
-                        <button type="button" class="btn btn-light">Add to Cart</button>
                     </div>
+                    
+
+
+                    <br>
+                    
+                    <button type="button" class="add-to-cart-btn btn btn-light">Add to Cart</button>
                 </div>
             </div>
 
-
         </div>
-
+    </div>
 
 
 </body>

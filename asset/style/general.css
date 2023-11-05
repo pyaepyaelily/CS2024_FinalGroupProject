@@ -1,8 +1,9 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #F9FAFA;
 }
 
 .page-content{
-     margin: 2%;
+     margin: 5%;
 }
