@@ -7,3 +7,8 @@ body, html {
 .page-content{
      margin: 5%;
 }
+
+.breadcrumb_div{
+    margin-bottom: 50px;
+  }
+  
