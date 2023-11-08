@@ -3,9 +3,14 @@
     overflow: hidden;
 }
 
+.page-content {
+    margin-top: 60px;
+}
+
 .catTitle {
     text-align: center;
     padding: 10px;
+    margin: 60px 0 60px 0;
 }
 
 .catHeading {
@@ -22,11 +27,23 @@
     left: 40%;
 }
 
-.catDiv{
+.catDiv {
     padding: 10px;
+    margin: 40px 0 0 0;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.card{
+    width: 25rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
 }

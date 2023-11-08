@@ -3,8 +3,14 @@
     overflow: hidden;
 }
 
+.page-content{
+    margin-top: 60px;
+}
+
 .switchesTitle {
     text-align: left;
+    /* background-color: red; */
+    margin: 60px 0 60px 0;
 }
 
 .switchesHeading {
@@ -22,10 +28,21 @@
 }
 
 .switchesDiv{
+    margin: 40px 0 0 0;
     padding: 10px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.card{
+    width: 25rem;
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
 }
