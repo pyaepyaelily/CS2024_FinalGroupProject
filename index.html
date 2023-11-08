@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stash</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Own styling -->
+    <link rel="stylesheet" href="asset/style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&family=Lato:wght@100;300&family=Lora&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="js/header.js" type="text/javascript" defer></script>
+    <script src="js/footer.js" type="text/javascript" defer></script>
+    <script defer src="asset/js/animation.js"></script>
+    <script defer src="asset/js/carousel.js"></script>
+    <script defer src="asset/js/popup.js"></script>
+</head>
+
+<body>
+   <header-component></header-component>
+    <div class="topbanner"></div>
+    <!-- <div class = "wrapper"> -->
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">Get your FREE sample pack!</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Sign up for our newsletter and receive a sample key switches pack on us!</p>
+                    <div class="subscribe">
+                      <form id="subscriptionForm" action="subscription.php" method="POST">
+                        <input type="email" name="email" id="email" placeholder="Enter your email address">
+                        <input type="submit" value="Subscribe">
+                      </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary mx-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Selling Point 1  -->
+      <div class="hidden">
+        <div class="sellingpt1_box">
+          <div class="sellingpt1_content">
+            <h4>Our Mission</h4>
+            <img src="images/address-line-07.svg" id="line">
+              <p>Tartie Delights is more than just a shop; it's a place where you can find sweet
+                moments to cherish. Whether you're celebrating a special occasion, sharing a
+                treat with loved ones, or simply satisfying your own sweet cravings, our tarts
+                are here to make every moment sweeter.</p>
+              <p>We invite you to come and explore our world of tarts at Tartie Delights.
+                We promise to provide you with an experience that's as delightful as our name.</p>
+              <p>Order from Tartie Delights today and experience the art of tarts like never before!</p>
+          </div>
+          <div id = "sellingpt1_img">
+            <img src="asset/img/switches/clicky.jpg" id="sellingpts_imgs">
+          </div>
+        </div>
+      </div>
+
+      <!-- Selling Point 2  -->
+      <div class="hidden">
+        <div class="sellingpt2_box">
+          <div id = "sellingpt2_img">
+            <img src="asset/img/switches/clicky.jpg" id="sellingpts_imgs">
+          </div>
+          <div class="sellingpt2_content">
+            <h4>Our Promise</h4>
+            <img src="images/address-line-07.svg" id="line">
+            <p>
+              Our commitment to quality never wavers. We source the finest, freshest ingredients,
+                and our bakers put their heart and soul into every tart they create. Whether it's
+                our classic fruit tarts bursting with the season's best produce, or our luscious
+                chocolate ganache tarts that are a true chocolate lover's dream, every tart is a masterpiece.</p>
+            <p>We don't just stop at the taste – we also prioritise aesthetics. Our tarts are as
+              visually appealing as they are delicious. From vibrant fruit arrangements to elegant
+              chocolate drizzles, we pay attention to every detail, making sure each tart is
+              a feast for both your eyes and your palette.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selling Point 3  -->
+      <div class="hidden">
+        <div class="sellingpt1_box">
+          <div class="sellingpt1_content">
+            <h4>Our Mission</h4>
+            <img src="images/address-line-07.svg" id="line">
+              <p>Tartie Delights is more than just a shop; it's a place where you can find sweet
+                moments to cherish. Whether you're celebrating a special occasion, sharing a
+                treat with loved ones, or simply satisfying your own sweet cravings, our tarts
+                are here to make every moment sweeter.</p>
+              <p>We invite you to come and explore our world of tarts at Tartie Delights.
+                We promise to provide you with an experience that's as delightful as our name.</p>
+              <p>Order from Tartie Delights today and experience the art of tarts like never before!</p>
+          </div>
+          <div id = "sellingpt1_img">
+            <img src="asset/img/switches/clicky.jpg" id="sellingpts_imgs">
+          </div>
+        </div>
+      </div>
+
+      <!-- Selling Point 4  -->
+      <div class="hidden">
+        <div class="sellingpt2_box">
+          <div id = "sellingpt2_img">
+            <img src="asset/img/switches/clicky.jpg" id="sellingpts_imgs">
+          </div>
+          <div class="sellingpt2_content">
+            <h4>Our Promise</h4>
+            <img src="images/address-line-07.svg" id="line">
+            <p>
+              Our commitment to quality never wavers. We source the finest, freshest ingredients,
+                and our bakers put their heart and soul into every tart they create. Whether it's
+                our classic fruit tarts bursting with the season's best produce, or our luscious
+                chocolate ganache tarts that are a true chocolate lover's dream, every tart is a masterpiece.</p>
+            <p>We don't just stop at the taste – we also prioritise aesthetics. Our tarts are as
+              visually appealing as they are delicious. From vibrant fruit arrangements to elegant
+              chocolate drizzles, we pay attention to every detail, making sure each tart is
+              a feast for both your eyes and your palette.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top 5 best sellers -->
+      <div class="hidden">
+        <div class="bestsellters_box">
+          <div class="container text-center my-3" style="padding-top: 70px;">
+              <h1 class="font-weight-light">Our bestsellers</h1>
+              <div class="row mx-auto my-auto">
+                  <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                      <div class="carousel-inner w-100" role="listbox">
+                          <div class="carousel-item active">
+                              <div class="col-md-4">
+
+                                  <div class="card card-body" style="height: 25rem;">
+                                      <!-- <img class="img-fluid" src="http://placehold.it/380?text=1"> -->
+                                      <img src="asset/img/switches/clicky.jpg" id="carousel_imgs">
+                                      <h4 class="card_text">Clicky</h4>
+                                      <p>$0.80</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-4">
+                                  <div class="card card-body" style="height: 25rem;">
+                                      <img src="asset/img/keyCaps/ocean.png" id="carousel_imgs">
+                                      <h4 class="card_text">Ocean</h4>
+                                      <p>$98.80</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-4">
+                                  <div class="card card-body" style="height: 25rem;">
+                                      <img src="asset/img/switches/slient.webp" id="carousel_imgs">
+                                      <h4 class="card_text">Silent</h4>
+                                      <p>$0.80</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-4">
+                                  <div class="card card-body" style="height: 25rem;">
+                                      <img src="asset/img/switches/tactile.jpg" id="carousel_imgs">
+                                      <h4 class="card_text">Tactile</h4>
+                                      <p>$0.80</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="col-md-4">
+                                  <div class="card card-body" style="height: 25rem;">
+                                      <img src="asset/img/keyCaps/whitePink.png" id="carousel_imgs">
+                                      <h4 class="card_text">White Pink</h4>
+                                      <p>$98.80</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Showroom Information  -->
+      <div class="hidden">
+        <div class="sellingpt1_box">
+          <div class="sellingpt1_content">
+            <h4>Come visit us NOW!</h4>
+            <img src="images/address-line-07.svg" id="line">
+              <p>Tartie Delights is more than just a shop; it's a place where you can find sweet
+                moments to cherish. Whether you're celebrating a special occasion, sharing a
+                treat with loved ones, or simply satisfying your own sweet cravings, our tarts
+                are here to make every moment sweeter.</p>
+              <p>We invite you to come and explore our world of tarts at Tartie Delights.
+                We promise to provide you with an experience that's as delightful as our name.</p>
+              <p>Order from Tartie Delights today and experience the art of tarts like never before!</p>
+          </div>
+          <div id = "sellingpt1_img">
+            <img src="asset/img/switches/clicky.jpg" id="sellingpts_imgs">
+          </div>
+        </div>
+      </div>
+
+    <!-- </div> -->
+
+  <footer-component></footer-component>
+
+</body>
+
+</html>
