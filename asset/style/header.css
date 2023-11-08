@@ -1,56 +1,55 @@
-.header{
-    flex: 1;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 60px;
-    background-color: #ece2d6;
-    color:#c09241;
-    text-align: center;
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafa;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
-.header_left{
-    margin: 0px;
-    padding-top: 5px;
-    padding-left: 40px;
-    display: flex;
-    width: 50%;
-    float: left;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #2e2e2e;
 }
 
-.header_right{
-    overflow: hidden;
-    /* padding-top: 15px; */
-    /* padding-right: 40px; */
-    padding: 30px;
-    display: flex;
-    text-align: right;
-    float: right;
-    margin-right: 5px;
-    justify-content:space-between;
-    /* width: 420px; */
+.navbar-title {
+  font-size: 24px;
+  margin: auto;
+  padding-left: 50px;
 }
 
-.header_right a:hover, .dropdown:hover .dropbtn {
-    background-color: #c5b8a8;
-  }
-
-.main-container{
-    flex: 1;
-    flex-direction: row;
-    width:100%;
-    margin:0px;
-    padding: 0px;
+.navbar-buttons {
+  display: flex;
 }
 
-.name{
-    margin: 0px;
-    margin-top: 10px;
-    margin-left: 15px;
+.navbar-buttons a {
+  margin-left: 10px;
 }
 
-.dropdown .dropbtn {
+.navbar-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-row a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+/* .dropdown .dropbtn {
     border: none;
     outline: none;
     color: white;
@@ -64,7 +63,6 @@
     display: none;
     position: absolute;
     background-color: #ece2d6;
-    /* padding: 5px; */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -85,16 +83,109 @@
   .dropdown-content a:hover {
     background-color: #c5b8a8;
     margin: 5px;
-    /* padding:5px; */
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
-  h3{
+h1{
     color: #6e5e4f;
     font-family: 'Lora', serif;
     font-size:x-small;
     letter-spacing: 3px;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.navbar-title {
+    font-size: 24px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-buttons a:hover {
+    text-decoration: underline;
+}
+
+.navbar-row {
+    background-color: #333;
+}
+
+.navbar-row a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-row a:hover {
+    background-color: #444;
+} */
+
+
+/* 
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  background-color: #6e5e4f;
+  color:#c09241;
+}
+
+
+.header_left{
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 40px;
+    display: flex;
+    width: 50%;
+    float: left;
+}
+
+.header_right{
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    text-align: right;
+    float: right;
+    margin-right: 5px;
+    justify-content:space-between;
+}
+
+.header_right a:hover, .dropdown:hover .dropbtn {
+    background-color: #c5b8a8;
   }
+
+.main-container{
+    flex: 1;
+    flex-direction: row;
+    width:100%;
+    margin:0px;
+    padding: 0px;
+}
+
+.name{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+} */
