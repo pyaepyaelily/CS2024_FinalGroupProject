@@ -12,6 +12,10 @@ a {
   margin-top: 60px;
 }
 
+.product_des_div{
+  margin-top: 30px;
+}
+
 /*-------------------------- Quantity Button*/
 button:focus,
 input:focus {
