@@ -52,25 +52,34 @@ body {
 }
 
 /* fonts */
-p{
-    color: #7c6550;
-    font-family: 'Source Sans 3', sans-serif;
+/* p{
+    color: #2e2e2e;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 0.5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h1{
-    color: #6e5e4f;
-    font-family: 'Lora', serif;
+    color: #2e2e2e;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 7px;
-    font-size:20px;
+    font-size:60px;
+    font-weight: 600;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 7px;
+  font-weight: 500;
+  font-size:18px;
+  color: #2e2e2e;
 }
 h4{
-    color: #6e5e4f;
-    font-family: 'Lora', serif;
+    color: #2e2e2e;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 7px;
     font-size:16px;
-}
+    font-weight: 400;
+} */
 
 .sellingpt1_content {
   border: 0px solid orange;
@@ -143,7 +152,7 @@ h4{
 .topbanner{
   display: flex;
   height: 600px;
-  opacity: 0.7;
+  opacity: 0.5;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -213,7 +222,7 @@ h4{
   height: 40px;
   border: 1px solid #efefef;
   background-color: #f9fafa;
-  color: #efefef;
+  color: #2e2e2e;
 }
 .subscribe input[type=submit]{
   /* padding: 15px;
@@ -221,8 +230,8 @@ h4{
   margin-left: 15px;
   margin-right: 12%; */
   height: 100%;
-  border: 1px solid #efefef;
-  background-color: #efefef;
+  border: 1px solid #2e2e2e;
+  background-color: #2e2e2e;
   color: #f9fafa;
 }
 
@@ -234,7 +243,7 @@ h4{
   height: 100%;
   border: 1px solid #efefef;
   background-color: #f9fafa;
-  color: #efefef;
+  color: #2e2e2e;
 }
 .modal-footer, .modal-header{
   background-color: #efefef;
