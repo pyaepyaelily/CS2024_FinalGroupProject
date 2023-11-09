@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Payment</title>
+  <link rel="stylesheet" type="text/css" href="./paymentpage.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+  <script src="js/header.js" type="text/javascript" defer></script> 
+  <script src="js/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+<header-component></header-component>
+  <div class="split left">
+    <h1 class="heading">My Details</h1>
+    
+    <div class="heading">
+      <hr class="rounded">
+      <div class="address">
+        <div class="details">
+       <br><p>Name: Alex | Mobile: (+65) 0000 0000</p>
+      </div>
+    <p>Address:</p>
+        <p>Blk 123 NTU Hill #12-34 Singapore 123456</p>
+      </div>
+      </div>
+
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="lname">Redeem Code:</label><br>
+        <input type="text" id="lname" name="subject">
+        <br>
+        <label for="subject">Payment Method:</label><br>
+        <select name="payment" id="payment">
+          <option value="nets">Nets</option>
+          <option value="visa">Visa</option>
+          <option value="mastercard">MasterCard</option>
+        </select>
+
+        <br><label for="lname">Notes:</label><br>
+        <input type="text" style="height:200px" id="lname" name="subject">
+
+       </form>
+    </div>
+  </div>
+
+<div class="split right">
+    <h1 class="heading">Order Summary</h1>
+    <div class="heading">
+      <hr class="rounded">
+  <div class="Cart-Items">  
+          <div class="about">
+            <h1 class="title">Keyboard 1</h1><br>
+            <h3 class="subtitle">Price: $95</h3>
+            <h3 class="subtitle">Quantity: 1</h3>
+            <div class="close-button">X</div>
+          </div>
+  </div>
+  <div class="Cart-Items">
+          <div class="about"><br>
+            <h1 class="title">Keyboard 2</h1><br>
+            <h3 class="subtitle">Price: $80</h3>
+            <h3 class="subtitle">Quantity: 2</h3>
+            <div class="close-button1">X</div>
+          </div>
+  </div>
+<hr>
+    <div class="checkout">
+     <div class="total">
+      <div>
+        <br>
+        <div class="Subtotal">Subtotal:</div><br>
+      </div>
+      <div class="sub-amount"><br>$30.00</div>
+      </div>
+      <div class="delivery">Delivery Fee:</div>
+       <div class="delivery-amount">$5.00</div> 
+       <br><hr>
+       <div class="total">
+         <div>
+            <br>
+            <div class="total">Total:</div>
+            <div class="tax">Tax Included:</div>
+         </div>
+        <div class="total-amount"><br>$120.00</div>
+        </div><br>
+         <input type="submit" value="Place Order" onclick="location.href = 'thankyou.html';" style="float: right;">
+    </div>  
+
+  </div>
+   </div> 
+   <footer-component></footer-component>
+</body>
+
+</html>
