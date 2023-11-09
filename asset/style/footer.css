@@ -68,6 +68,7 @@ hr {
     border: 1px solid #213555;
     background-color: #f9fafa;
     color: #213555;
+    height: 50px;
 }
 
 .subscribe input[type=submit] {
