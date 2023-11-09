@@ -10,14 +10,15 @@ class Footer extends HTMLElement {
       <body>
           <div class="footer">
               <div class="address">
-                <hr width="80%">
+                <hr>
                   <div class="subscribe">
                     <form id="subscriptionForm" action="subscription.php" method="POST">
                       <input type="email" name="email" id="email" placeholder="Enter your email address">
                       <input type="submit" value="Subscribe">
                     </form>
                   </div>
-                  <hr width="80%">
+       
+                  <hr>
               </div>
               <div class="footer_menu">
                 <div class="menu_footer">
