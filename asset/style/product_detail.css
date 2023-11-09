@@ -1,22 +1,22 @@
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-.add-to-cart-btn{
-    background-color: #213555;
-    color: white;
+.add-to-cart-btn {
+  background-color: #213555;
+  color: white;
 }
 
 .page-content {
   margin-top: 60px;
 }
 
-.productImg_div{
-margin-right: 100px;
+.productImg_div {
+  margin-right: 100px;
 }
 
-.product_des_div{
+.product_des_div {
   margin-top: 30px;
 }
 
@@ -57,5 +57,3 @@ input:focus {
   max-width: 50px;
   background-color: transparent;
 }
-
-

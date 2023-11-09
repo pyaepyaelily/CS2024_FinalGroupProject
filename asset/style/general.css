@@ -1,14 +1,41 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
-    background-color: #F9FAFA;
+    background-color: #efefef;
 }
 
-.page-content{
-     margin: 10%;
+.page-content {
+    margin: 10%;
 }
 
-.breadcrumb_div{
+.breadcrumb_div {
     margin-bottom: 50px;
-  }
-  
+    color: #a6a6a6;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+
+}
