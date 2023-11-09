@@ -75,18 +75,21 @@ h4{
 .sellingpt1_content {
   border: 0px solid orange;
     text-align: left;
-    margin-top: 70px;
+    padding-top:70px;
+    margin-top: 5%;
     width: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
+    height: 330px;
 }
 
 .sellingpt2_content{
   margin-left: 8%;
-  margin-right: 5%;
-  margin-top: 70px;
+  margin-right: 10%;
+  padding-top:60px;
+  margin-top: 5%;
   margin-bottom: 20px;
   width: 100%;
-  height: 430px;
+  height: 330px;
   border: 0px solid orange;
 
 }
@@ -105,11 +108,11 @@ h4{
 /* Images */
 #sellingpt1_img{
   margin-left: 8%;
-  margin-right: 5%;
+  margin-right: 10%;
   margin-top: 70px;
   margin-bottom: 20px;
   width: 100%;
-  height: 430px;
+  height: 330px;
   border: 0px solid orange;
 
 }
@@ -119,11 +122,15 @@ h4{
     text-align: left;
     color: #c09241;
     margin-top: 70px;
-    margin-left: 5%;
+    margin-left: 10%;
     letter-spacing: 5px;
-    height: 430px;
+    height: 330px;
     width: 100%;
     /* margin-left: 5%; */
+}
+
+#sellingpts_imgs{
+  height: 330px;
 }
 
 #line{
