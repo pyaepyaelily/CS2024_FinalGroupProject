@@ -35,6 +35,27 @@ body {
     width: 100%;
     height: 700px;
     display: flex;
+    background-color: #f9fafa;
+}
+
+.showroom_box{
+    border: 0px solid gray;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color:#efefef;
+    background-image: url('https://i.pinimg.com/736x/28/0b/6a/280b6a982f24907399f9432dc60b69f4.jpg');
+    /* padding: 50px; */
+    /* margin-left: 10%; */
+}
+
+.showroom_content_box{
+  border: 2px solid orange;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  background-color:#f9fafa;
 }
 
 .col-md-4{
@@ -48,7 +69,7 @@ body {
 }
 
 .carousel-item{
-  height:500px;
+  height:600px;
 }
 
 /* fonts */
