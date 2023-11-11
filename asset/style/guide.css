@@ -54,30 +54,14 @@ body {
 }
 
 /* fonts */
-p{
-    color: #7c6550;
-    font-family: 'Source Sans 3', sans-serif;
-    letter-spacing: 0.5px;
-    font-size: 16px;
-}
+
 .aboutus p{
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
   font-size: 18px;
 }
-h1{
-    color: #6e5e4f;
-    font-family: 'Lora', serif;
-    letter-spacing: 7px;
-    font-size:20px;
-}
-h4{
-    color: #6e5e4f;
-    font-family: 'Lora', serif;
-    letter-spacing: 7px;
-    font-size:16px;
-}
+
 
 .ourstory_content {
   border: 0px solid orange;
@@ -123,9 +107,6 @@ h4{
     /* margin-left: 5%; */
 }
 
-#line{
-    width: 30%
-}
 
 
 /* Transitions */
