@@ -13,8 +13,13 @@
     padding: 20px;
 }
 
+a {
+  text-decoration:underline;
+  color: inherit;
+}
+
 .login-header {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .login form {
@@ -60,13 +65,12 @@
   font-family: 'Lato', sans-serif;
 }
 
-.container {
+.check {
     text-align: left;
     width: 100%;
     display: block;
     position: relative;
     padding-left: 20px;
-    margin-left: 20px;
     margin-bottom: 12px;
     cursor: pointer;
     -webkit-user-select: none;
@@ -80,7 +84,7 @@
     border-radius: 0;
   }
   
-  .container input {
+  .check input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -99,11 +103,11 @@
     background-color: #eee;
   }
   
-  .container:hover input ~ .checkmark {
+  .check:hover input ~ .checkmark {
     background-color: #ccc;
   }
   
-  .container input:checked ~ .checkmark {
+  .check input:checked ~ .checkmark {
     background-color: #213555;
   }
   
@@ -113,18 +117,30 @@
     display: none;
   }
   
-  .container input:checked ~ .checkmark:after {
+  .check input:checked ~ .checkmark:after {
     display: block;
   }
   
-  .container .checkmark:after {
+  .check .checkmark:after {
     left: 5px;
-    top: 1.5px;
-    width: 3.5px;
-    height: 7px;
+    top: 2.5px;
+    width: 5.5px;
+    height: 8px;
     border: solid white;
     border-width: 0 2.4px 2.4px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .sub-left{
+    width: 48.5%;
+    float: left;
+    flex-direction: column;
+}
+
+  .sub-right{
+      width: 48.5%;
+      float: right;
+      flex-direction: column;
   }

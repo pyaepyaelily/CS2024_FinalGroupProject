@@ -14,7 +14,7 @@ class Header extends HTMLElement {
         <div class="header">
             <div class="navbar">
                 <div class="navbar-title">
-                    KEYBOARD
+                    STASH
                 </div>
                 <div class="navbar-buttons">
                     <a href="login.html">
