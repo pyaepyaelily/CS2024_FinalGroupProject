@@ -75,6 +75,10 @@
   font-size: 18px;
 }
 
+.topbanner_text {
+  color: #2e2e2e;
+  text-align: center;
+}
 
 .components_content {
   border: 0px solid orange;

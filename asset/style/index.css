@@ -1,13 +1,5 @@
 /* Formating */
-/* .wrapper{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0;
-} */
-body {
-  margin:0;
-  padding: 0;
-}
+
 
 .sellingpt1_box{
     border: 0px solid gray;
@@ -109,14 +101,10 @@ body {
   padding-top: 20px;
 }
 
-.topbanner_text {
-  color: #2e2e2e;
+.topbanner_text{
   text-align: center;
 }
 
-/* #card{
-  height:400px;
-} */
 
 /* Images */
 #sellingpt1_img{
@@ -146,13 +134,9 @@ body {
   height: 330px;
 }
 
-#line{
-    width: 30%
-}
 
 
 /* Transitions */
-
 .topbanner{
   display: flex;
   height: 600px;
@@ -165,7 +149,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 
 .hidden{
     opacity: 0;
