@@ -44,7 +44,7 @@ h5 {
     color: #2e2e2e;
 }
 
-p {
+p, ul{
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     color: #2e2e2e;
@@ -64,3 +64,6 @@ a:hover, a:active {
     text-decoration: none !important;
 }
 
+ul, ol {
+    list-style: none;
+}
