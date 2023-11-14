@@ -1,0 +1,95 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add animation:  top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #fe8d01;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background: #efefef;
+  padding: 0px;
+}
+body{
+  /*  margin: 0;
+    padding: 0;*/
+    background: #efefef;
+/*    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+/*.CartContainer{
+    width: 100%;
+    height: 80%;*/
+/*  background-color: #fff8e7;*/
+   /* border-radius: 20px;*/
+   /* box-shadow: 0px 10px 20px #1687d933;*/
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  background: #efefef;
+}
+
+.right {
+  right: 0;
+  background: #efefef;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button{
+
+  float: right;
+}
+.Header{
+  margin: auto;
+  width: 90%;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Heading{
+  font-size: 30px;
+  font-family: 'Cambria';
+  font-weight: 700;
+  color: #2F3841;
+}
