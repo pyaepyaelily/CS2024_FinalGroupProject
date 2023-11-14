@@ -4,13 +4,8 @@
     margin-right: 5%;
     padding: 0;
 } */
-body {
-  margin:0;
-  padding: 0;
-  background-color:#f9fafa;
-}
 
-.aboutus{
+.guide_header{
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -19,7 +14,11 @@ body {
   align-items: center;
 }
 
-.ourstory_box{
+.switches{
+  background-color: #f9fafa;
+}
+
+.components_box{
     border: 0px solid gray;
     width: 100%;
     height: 600px;
@@ -28,15 +27,24 @@ body {
 
 }
 
-.ourpromise_box{
+.assembly_box{
     border: 0px solid gray;
     width: 100%;
-    height: 600px;
+    height: 340px;
     display: flex;
     padding-top: 50px;
     margin-right: 5%;
     /* padding: 50px; */
     /* margin-left: 10%; */
+}
+
+.assembly_box_last{
+  border: 0px solid gray;
+  width: 100%;
+  height: 440px;
+  display: flex;
+  padding-top: 50px;
+  margin-right: 5%;
 }
 
 .ourstore_box{
@@ -48,14 +56,19 @@ body {
 
 }
 
-#aboutus_imgs{
+#guide_imgs{
   width: 100%;
   height: 430px;
 }
 
+#assembly_imgs{
+  width: 100%;
+  height: 230px;
+}
+
 /* fonts */
 
-.aboutus p{
+.guide_header p{
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -63,7 +76,7 @@ body {
 }
 
 
-.ourstory_content {
+.components_content {
   border: 0px solid orange;
     text-align: left;
     margin-top: 70px;
@@ -72,19 +85,18 @@ body {
     /* margin-left: 5%; */
 }
 
-.ourpromise_content{
-  margin-left: 8%;
-  margin-top: 70px;
+.assembly_content{
   margin-right: 5%;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 430px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  width: 20%;
+  height: 230px;
   border: 0px solid orange;
 
 }
 
 /* Images */
-#ourstory_img{
+#components_img{
   margin-left: 8%;
   margin-top: 70px;
   margin-bottom: 20px;
@@ -95,19 +107,35 @@ body {
 
 }
 
-#ourpromise_img {
+#assembly_img {
   border: 0px solid orange;
     text-align: left;
     color: #c09241;
-    margin-top: 70px;
+    margin-bottom: 60px;
     letter-spacing: 5px;
-    height: 430px;
-    width: 100%;
-    margin-left: 5%;
+    height: 230px;
+    width: 20%;
+    margin-left: 25%;
     /* margin-left: 5%; */
 }
 
+/* Switches alignment */
+.productDiv{
+    margin: 40px 0 0 0;
+    padding: 10px;
+    padding-bottom: 150px;
+}
 
+.card{
+    width: 25rem;
+    margin: auto;
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
 
 /* Transitions */
 

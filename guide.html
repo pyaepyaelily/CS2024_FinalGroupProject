@@ -3,6 +3,7 @@
     <head>
         <title> Stash </title>
         <link rel="stylesheet" href="asset/style/guide.css">
+        <link rel="stylesheet" href="asset/style/general.css">
         <meta charset="utf-8">
         <script defer src="AboutUs.js"></script>
         <script src="asset/js/header.js" type="text/javascript" defer></script>
@@ -11,6 +12,18 @@
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
     </head>
     <body>
        <header-component></header-component>
@@ -19,92 +32,146 @@
           <p>Here's all you need to know to start building your very own keyboard!</p>
         </div>
         <div class = "wrapper">
-          <div class="aboutus">
+          <div class="guide_header">
             <div class="heading">
                 <h2>Structure of a mechanical keyboard</h2>
-                <hr>
             </div>
               <p>Understanding the different components to a mechanical keyboard</p>
           </div>
 
         <div class="hidden">
-          <div class="ourstory_box">
-            <div class="ourstory_content">
-              <h4>Tactile</h4>
-              <img src="images/address-line-07.svg" id="line">
-                <p>Tartie Delights is more than just a shop; it's a place where you can find sweet
-                  moments to cherish. Whether you're celebrating a special occasion, sharing a
-                  treat with loved ones, or simply satisfying your own sweet cravings, our tarts
-                  are here to make every moment sweeter.</p>
-                <p>We invite you to come and explore our world of tarts at Tartie Delights.
-                  We promise to provide you with an experience that's as delightful as our name.</p>
-                <p>Order from Tartie Delights today and experience the art of tarts like never before!</p>
+          <div class="components_box">
+            <div class="components_content">
+              <h4>Fucntions of the different parts:</h4>
+              <p><strong>Key Switches:</strong> Determine typing feel and include options like linear, tactile, clicky and silent switches.</p>
+              <p><strong>Keycaps:</strong> Visible and touchable parts that can be customised for both aesthetics and feel.</p>
+              <p><strong>PCB (Printed Circuit Board):</strong> Acts as the central nervous system, responsible for communicating with the computer.</p>
+              <p><strong>Shell/Case and Mounting Plate:</strong> House the components and can be customised.</p>
+              <p><strong>Backlighting:</strong> Enhances visibility and aesthetics; customisable RGB lighting options available.</p>
             </div>
-            <div id = "ourstory_img">
-              <img src="images/aboutus2.jpeg" id="aboutus_imgs">
+            <div id = "components_img">
+              <img src="asset/img/guide/components.png" id="guide_imgs">
             </div>
           </div>
         </div>
 
+        <div class = "switches">
+        <div class="guide_header">
+          <div class="heading">
+              <h2>Switches</h2>
+          </div>
+            <p>Discovering the typing sensation that suits your preference.</p>
+        </div>
         <div class="hidden">
-          <div class="ourpromise_box">
-            <div id = "ourpromise_img">
-              <img src="images/aboutus6.jpeg" id="aboutus_imgs">
+        <div class="container text-center">
+            <div class="productDiv">
+                <div class="row">
+                    <div class="col justify-content-center">
+                            <div class="card">
+                                <img src="asset\img\switches\linear.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Linear</h5>
+                                    <p class="card-text">Smooth keypresses without tactile feedback or audible clicks
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col justify-content-center">
+                            <div class="card">
+                                <img src="asset\img\switches\tactile.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Tactile</h5>
+                                    <p class="card-text">Provide a noticeable bump for tactile feedback</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="ourpromise_content">
-              <h4>Linear</h4>
-              <img src="images/address-line-07.svg" id="line">
+
+            <div class="productDiv">
+                <div class="row">
+                    <div class="col justify-content-center">
+                            <div class="card">
+                                <img src="asset\img\switches\clicky.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Clicky</h5>
+                                    <p class="card-text">Offer tactile feedback with audible click sounds</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col justify-content-center">
+                            <div class="card">
+                                <img src="asset\img\switches\silent.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Silent</h5>
+                                    <p class="card-text">Like linear switches, but designed to minimize noise</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="guide_header">
+        <div class="heading">
+            <h2>Assembly </h2>
+        </div>
+          <p>The most exciting part of owning a mechanical keyboard</p>
+      </div>
+
+        <div class="hidden">
+          <div class="assembly_box">
+            <div id = "assembly_img">
+              <img src="images/aboutus6.jpeg" id="assembly_imgs">
+            </div>
+            <div class="assembly_content">
+              <h4>1. Unpack the keyboard kit</h4><br>
               <p>
-                Our commitment to quality never wavers. We source the finest, freshest ingredients,
-                  and our bakers put their heart and soul into every tart they create. Whether it's
-                  our classic fruit tarts bursting with the season's best produce, or our luscious
-                  chocolate ganache tarts that are a true chocolate lover's dream, every tart is a masterpiece.</p>
-              <p>We don't just stop at the taste – we also prioritise aesthetics. Our tarts are as
-                visually appealing as they are delicious. From vibrant fruit arrangements to elegant
-                chocolate drizzles, we pay attention to every detail, making sure each tart is
-                a feast for both your eyes and your palette.</p>
+                Place the barebone keyboard on a flat surface. The grids with diagonal sockets / crosses are
+                for your mechanical key switches</p>
             </div>
           </div>
-        </div>
 
-        <div class="hidden">
-          <div class="ourstore_box">
-            <div class="ourstory_content">
-              <h4>Clicky</h4>
-              <img src="images/address-line-07.svg" id="line">
-                <p>Tartie Delights is more than just a shop; it's a place where you can find sweet
-                  moments to cherish. Whether you're celebrating a special occasion, sharing a
-                  treat with loved ones, or simply satisfying your own sweet cravings, our tarts
-                  are here to make every moment sweeter.</p>
-                <p>We invite you to come and explore our world of tarts at Tartie Delights.
-                  We promise to provide you with an experience that's as delightful as our name.</p>
-                <p>Order from Tartie Delights today and experience the art of tarts like never before!</p>
+          <div class="assembly_box">
+            <div id = "assembly_img">
+              <img src="images/aboutus6.jpeg" id="assembly_imgs">
             </div>
-            <div id = "ourstory_img">
-              <img src="images/aboutus2.jpeg" id="aboutus_imgs">
+            <div class="assembly_content">
+              <h4>2. Unpack and secure the switches</h4><br>
+              <p>Align the diagonal metal pins on the back of the switches with the diagonal sockets / crosses
+                on the barebone keyboard.</p>
+              <p>Press down slowly yet firmly till you hear a crisp and clear click, signalling that the switch has been secured in place.</p>
             </div>
           </div>
-        </div>
 
-        <div class="hidden">
-          <div class="ourpromise_box">
-            <div id = "ourpromise_img">
-              <img src="images/aboutus6.jpeg" id="aboutus_imgs">
+          <div class="assembly_box">
+            <div id = "assembly_img">
+              <img src="images/aboutus6.jpeg" id="assembly_imgs">
             </div>
-            <div class="ourpromise_content">
-              <h4>Silent</h4>
-              <img src="images/address-line-07.svg" id="line">
-              <p>
-                Our commitment to quality never wavers. We source the finest, freshest ingredients,
-                  and our bakers put their heart and soul into every tart they create. Whether it's
-                  our classic fruit tarts bursting with the season's best produce, or our luscious
-                  chocolate ganache tarts that are a true chocolate lover's dream, every tart is a masterpiece.</p>
-              <p>We don't just stop at the taste – we also prioritise aesthetics. Our tarts are as
-                visually appealing as they are delicious. From vibrant fruit arrangements to elegant
-                chocolate drizzles, we pay attention to every detail, making sure each tart is
-                a feast for both your eyes and your palette.</p>
+            <div class="assembly_content">
+              <h4>3. Decoration</h4><br>
+              <p>Align the cross located at the back of the keycap to the cross on the switch and press down firmly to secure it in place.</p>
             </div>
           </div>
+
+          <div class="assembly_box_last">
+            <div id = "assembly_img">
+              <img src="images/aboutus6.jpeg" id="assembly_imgs">
+            </div>
+            <div class="assembly_content">
+              <h4>CONGRATUALTIONS!</h4><br>
+              <p>You have just successfully assembled your very own mechanical keyboard.</p>
+              <p>Try it out now!</p>
+            </div>
+          </div>
+
         </div>
 
         </div>
