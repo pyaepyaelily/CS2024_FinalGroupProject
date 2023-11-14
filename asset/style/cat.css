@@ -1,7 +1,44 @@
-.banner-container-fluid {
+/* .banner-container-fluid {
     width: 100%;
     overflow: hidden;
+} */
+
+.topbanner {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url('https://i.ytimg.com/vi/nM2sBqNeTAI/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
 }
+
+.topbanner_text h1{
+    color: #2e2e2e;
+} 
+
+
+/* .topbanner {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://i.ytimg.com/vi/nM2sBqNeTAI/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topbanner_text h1 {
+    color: #2e2e2e;
+} */
+
+
 
 .page-content {
     margin-top: 60px;
@@ -42,6 +79,12 @@ a {
     width: 25rem;
     margin: auto;
 }
+
+.card-img-top {
+    height: 200px; /* Set the desired fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
 
 .card-body {
     display: flex;
