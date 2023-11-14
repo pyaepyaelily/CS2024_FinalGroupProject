@@ -18,7 +18,8 @@
 
 .topbanner_text h1{
     color: #2e2e2e;
-} 
+    text-align: center;
+}
 
 
 /* .topbanner {
