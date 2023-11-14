@@ -20,7 +20,7 @@ class Header extends HTMLElement {
                     <a href="login.html">
                         <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/gender-neutral-user.png" alt="gender-neutral-user"/>
                     </a>
-                    <a href="cart.html">
+                    <a href="mycart.html">
                         <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/shopping-cart.png" alt="shopping-cart"/>
                     </a>
                 </div>
@@ -31,7 +31,7 @@ class Header extends HTMLElement {
                 <a href="cat.html">Shop Now</a>
                 <a href="guide.html">Guide</a>
                 <a href="faq.html">FAQs</a>
-                <a href="#">Contact Us</a>
+                <a href="contactus.html">Contact Us</a>
             </div>
         </div>
 
