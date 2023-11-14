@@ -51,6 +51,7 @@ p {
 
 }
 
+<<<<<<< HEAD
 .topbanner {
     display: flex;
     height: 600px;
@@ -67,3 +68,8 @@ p {
 .topbanner_text h1{
     color: #2e2e2e;
 } 
+=======
+input{
+    font-family: 'Lato', sans-serif;
+}
+>>>>>>> 2f44bb35ae1f2c690165aee8adf6e3c51cffb0c3
