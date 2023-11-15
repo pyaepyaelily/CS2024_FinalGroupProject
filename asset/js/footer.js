@@ -54,7 +54,7 @@ class Footer extends HTMLElement {
               </div>
 
               <div class="footer_copyright">
-                  <h4>Copyright <span>&#169;</span> 2023 KEYBOARDS. All Rights Reserved.</h4>
+                  <h4>Copyright <span>&#169;</span> 2023 STASH. All Rights Reserved.</h4>
               </div>
           </div>
           </body>

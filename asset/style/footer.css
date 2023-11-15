@@ -69,6 +69,7 @@ hr {
     background-color: #f9fafa;
     color: #213555;
     height: 50px;
+    font-family: 'Lato', sans-serif;
 }
 
 .subscribe input[type=submit] {
@@ -81,6 +82,7 @@ hr {
     border: 1px solid #213555;
     background-color: #213555;
     color: #ece2d6;
+    font-family: 'Lato', sans-serif;
 }
 
 .footer_menu {
