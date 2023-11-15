@@ -2,41 +2,63 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NDD9ZKDP');</script>
+    <!-- End Google Tag Manager -->
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
     <!-- stylesheets and js -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+3:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="asset\style\general.css">
     <link rel="stylesheet" href="asset\style\faq.css">
-    <script src="asset/js/header.js" type="text/javascript" defer></script> 
+    <script src="asset/js/header.js" type="text/javascript" defer></script>
     <script src="asset/js/footer.js" type="text/javascript" defer></script>
 
 </head>
 
 <body style="background-color: #efefef;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDD9ZKDP" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header-component></header-component>
     <div class="content">
         <!-- Content -->
         <div class="container">
             <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="faq.html">FAQs</a></li>
-            </ol>
-        </nav>
-        <br>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="faq.html">FAQs</a></li>
+                </ol>
+            </nav>
+            <br>
             <h1>Frequently Asked Questions</h1>
             <br>
-            <p>Have a question? Find your answer in our frequently asked questions below or contact us <a href="contactus.html">here</a>.</p>
+            <p>Have a question? Find your answer in our frequently asked questions below or contact us <a
+                    href="contactus.html">here</a>.</p>
 
             <br><br>
             <div id="accordion">
@@ -44,17 +66,19 @@
                 <div class="faq-container" id="heading1">
                     <div class="question">
                         <hr>
-                        <button class="btn" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
+                            aria-controls="collapseOne">
                             <h3>
                                 How do I find the right switch I like?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                You can visit our showroom to test out the keyboards yourself, or you could sign up for our newsletter and receive a trial pack of the keys for us! 
+                                You can visit our showroom to test out the keyboards yourself, or you could sign up for
+                                our newsletter and receive a trial pack of the keys for us!
                             </p>
                         </div>
                     </div>
@@ -63,17 +87,19 @@
 
                 <div class="faq-container" id="heading2">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
+                            aria-controls="collapseTwo">
                             <h3>
-                                How long will your collaboration items be available for?                            
+                                How long will your collaboration items be available for?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                As these collaboration items are of limited quantity, they will only be available before the stocks run out. We also do not re-stock collaboration items.                             
+                                As these collaboration items are of limited quantity, they will only be available before
+                                the stocks run out. We also do not re-stock collaboration items.
                             </p>
                         </div>
                     </div>
@@ -86,17 +112,19 @@
                 <div class="faq-container" id="heading3">
                     <div class="question">
                         <hr>
-                        <button class="btn" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                            aria-controls="collapseThree">
                             <h3>
                                 How much is the shipping?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                Shipping is charged at $7 for orders below $200. Free shipping for orders $200 and above. 
+                                Shipping is charged at $7 for orders below $200. Free shipping for orders $200 and
+                                above.
                             </p>
                         </div>
                     </div>
@@ -105,17 +133,19 @@
 
                 <div class="faq-container" id="heading4">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
-                                How long does the delivery take?                             
+                                How long does the delivery take?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                We ship out our products within 2 working days and local delivery will take about 3 working days.
+                                We ship out our products within 2 working days and local delivery will take about 3
+                                working days.
                             </p>
                         </div>
                     </div>
@@ -124,17 +154,18 @@
 
                 <div class="faq-container" id="heading5">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
-                                I am not in Singapore, can I also buy from your website?                            
+                                I am not in Singapore, can I also buy from your website?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                Sorry, currently we only ship within Singapore. 
+                                Sorry, currently we only ship within Singapore.
                             </p>
                         </div>
                     </div>
@@ -143,17 +174,19 @@
 
                 <div class="faq-container" id="heading6">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse6" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
-                                How do you ensure that the products arrive in good condition?                            
+                                How do you ensure that the products arrive in good condition?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                We double wrap out products with bubble wrap and make sure that there is no empty space for the product to move around during the process of delivery. 
+                                We double wrap out products with bubble wrap and make sure that there is no empty space
+                                for the product to move around during the process of delivery.
                             </p>
                         </div>
                     </div>
@@ -166,19 +199,21 @@
                 <div class="faq-container" id="heading7">
                     <div class="question">
                         <hr>
-                        <button class="btn" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse7" aria-expanded="false"
+                            aria-controls="collapseThree">
                             <h3>
-                                How long is the warranty?                             
+                                How long is the warranty?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
                         <div class="faq-content">
                             <p>We provide a 1-year warranty for: </p>
                             <p>&emsp;&emsp;1. PCB boards </p>
                             <p>&emsp;&emsp;2. Switches </p>
-                            <p>For out-of-box defects, please reach out to our support team here with your order number, date of purchase, date of delivery as well as supporting pictures / videos.</p>
+                            <p>For out-of-box defects, please reach out to our support team here with your order number,
+                                date of purchase, date of delivery as well as supporting pictures / videos.</p>
                         </div>
                     </div>
                     <hr>
@@ -186,17 +221,19 @@
 
                 <div class="faq-container" id="heading8">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse8" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
-                                How can I request a refund / exchange?                       
+                                How can I request a refund / exchange?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                Please send in your request here with your order number, date of purchase, date of delivery as well as supporting pictures / videos.
+                                Please send in your request here with your order number, date of purchase, date of
+                                delivery as well as supporting pictures / videos.
                             </p>
                         </div>
                     </div>
@@ -205,26 +242,32 @@
 
                 <div class="faq-container" id="heading9">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse9" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
-                                How can I return a product?                            
+                                How can I return a product?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                You may come down to our showroom personally or you may mail it back to us at this address with its original packaging.
-                                The items must be returned within 7 days from the receiving date and be accompanied by a valid receipt or proof of purchase.
-                                In situations where the above conditions are not met, the return will be voided and the items will be returned to you.
-                                We would also not be responsible for the shipping fee involved. 
+                                You may come down to our showroom personally or you may mail it back to us at this
+                                address with its original packaging.
+                                The items must be returned within 7 days from the receiving date and be accompanied by a
+                                valid receipt or proof of purchase.
+                                In situations where the above conditions are not met, the return will be voided and the
+                                items will be returned to you.
+                                We would also not be responsible for the shipping fee involved.
                             </p>
                             <p>Return policy</p>
-                            <p>&emsp;&emsp;1. Items are eligible for return upon meeting all of the following conditions: </p>
+                            <p>&emsp;&emsp;1. Items are eligible for return upon meeting all of the following
+                                conditions: </p>
                             <p>&emsp;&emsp;2. Items are returned within 7 days from the receiving date</p>
                             <p>&emsp;&emsp;3. Items must be returned in their original packaging</p>
-                            <p>&emsp;&emsp;4. Items must be unused and in the same condition as when you received them. </p>
+                            <p>&emsp;&emsp;4. Items must be unused and in the same condition as when you received them.
+                            </p>
                         </div>
                     </div>
                     <hr>
@@ -232,26 +275,29 @@
 
                 <div class="faq-container" id="heading10">
                     <div class="question">
-                        <button class="btn" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse4">
+                        <button class="btn" data-toggle="collapse" data-target="#collapse10" aria-expanded="false"
+                            aria-controls="collapse4">
                             <h3>
                                 What if I do not like your product after purchasing?
                             </h3>
                         </button>
                     </div>
-              
+
                     <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion">
                         <div class="faq-content">
                             <p>
-                                We do not offer a refund / exchange in such situations. Hence, it is highly recommended for you to come down to our showroom or sign up for our free trial packs to test our products before purchasing. 
+                                We do not offer a refund / exchange in such situations. Hence, it is highly recommended
+                                for you to come down to our showroom or sign up for our free trial packs to test our
+                                products before purchasing.
                             </p>
                         </div>
                     </div>
                     <hr>
-                </div
-                <br><br>
-              </div>
+                </div <br><br>
+            </div>
         </div>
     </div>
     <footer-component></footer-component>
 </body>
+
 </html>
