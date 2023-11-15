@@ -113,23 +113,7 @@ body{
 	font-weight: 800;
 	color: #202020;
 }
-/*.save{
-	padding-top: 5px;
-	font-size: 14px;
-	font-family: 'Cambria';
-	font-weight: 600;
-	color: #1687d9;
-	cursor: pointer;
-}
-.remove{
-	padding-top: 5px;
-	font-size: 14px;
-	font-family: 'Cambria';
-	font-weight: 600;
-	color: #E44C4C;
-	cursor: pointer;
-}
-*/
+
 .pad{
 	margin-top: 5px;
 }
