@@ -142,10 +142,6 @@ option{
 
 /*Place order button*/
 
-.placebutton{
-    display: flex;
-}
-
 .order-btn{
   background-color: #213555;
   color: white;
