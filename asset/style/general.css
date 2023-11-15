@@ -67,3 +67,13 @@ a:hover, a:active {
 ul, ol {
     list-style: none;
 }
+
+.topbanner_text h1{
+    text-align: center;
+    color: #f9fafa;
+  }
+  
+  .topbanner_text h4{
+    text-align: center;
+    color: #f9fafa;
+  }
