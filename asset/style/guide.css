@@ -15,11 +15,7 @@
 }
 
 .switches{
-  background-color:#f9fafa;
-  padding-top: 100px;
-}
-.component_backgound{
-  padding-top: 100px;
+  background-color: #f9fafa;
 }
 
 .components_box{
@@ -29,20 +25,6 @@
     display: flex;
     /* padding: 50px; */
 
-}
-
-.assembly_background{
-  height: 1900px;
-  padding-top: 100px;
-}
-
-.assembly_background_box{
-  border: 0px solid gray;
-  width: 80%;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  margin: auto;
-  background-color:#f9fafa;
 }
 
 .assembly_box{
@@ -64,8 +46,6 @@
   padding-top: 50px;
   margin-right: 5%;
 }
-
-
 
 .ourstore_box{
     border: 0px solid gray;
@@ -100,34 +80,13 @@
   text-align: center;
 }
 
-.components_box{
-    border: 0px solid gray;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    /* padding: 50px; */
-    /* margin-left: 10%; */
-}
-
 .components_content {
   border: 0px solid orange;
     text-align: left;
-    /* padding-top:40px; */
-    margin-top: 5%;
+    margin-top: 70px;
     width: 100%;
-    margin-left: 10%;
-    height: 330px;
-}
-
-#components_img{
-  margin-left: 8%;
-  margin-right: 10%;
-  margin-top: 70px;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 330px;
-  border: 0px solid orange;
-
+    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 .assembly_content{
@@ -138,10 +97,6 @@
   height: 230px;
   border: 0px solid orange;
 
-}
-
-strong{
-  font-weight: 900;
 }
 
 /* Images */
@@ -172,9 +127,9 @@ strong{
 .switches1_box{
     border: 0px solid gray;
     width: 100%;
-    height: 550px;
+    height: 700px;
     display: flex;
-    /* padding-top: 50px; */
+    padding-top: 50px;
     background-color:#f9fafa;
     /* padding: 50px; */
     /* margin-left: 10%; */
@@ -183,7 +138,7 @@ strong{
 .switches1_content{
   margin-left: 8%;
   margin-right: 10%;
-  /* padding-top:40px; */
+  padding-top:60px;
   margin-top: 5%;
   margin-bottom: 20px;
   width: 100%;
@@ -207,7 +162,7 @@ strong{
 .switches2_box{
     border: 0px solid gray;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     background-color:#f9fafa;
     /* padding: 50px; */
@@ -217,7 +172,7 @@ strong{
 .switches2_content {
   border: 0px solid orange;
     text-align: left;
-    /* padding-top:40px; */
+    padding-top:70px;
     margin-top: 5%;
     width: 100%;
     margin-left: 10%;
@@ -237,7 +192,6 @@ strong{
 
 #switches_imgs{
   height: 330px;
-  width: 100%;
 }
 
 
