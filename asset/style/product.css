@@ -4,17 +4,17 @@
     overflow: hidden;
 } */
 
-/* .topbanner {
-    display: flex;
-    height: 600px;
-    flex-direction: column;
+.topbanner {
+    /* display: flex; */
+    height: 300px;
+    /* flex-direction: column;
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
-  } */
+    opacity: 0.8; */
+  }
 
 
 .page-content{
@@ -34,8 +34,8 @@
 .switchesHeading::before {
     content: '';
     position: absolute;
-    width: 20%;
-    height: 2px;
+    width: 15%;
+    height: 1px;
     background-color: rgb(0, 0, 0);
     bottom: -3px;
     left: 0;

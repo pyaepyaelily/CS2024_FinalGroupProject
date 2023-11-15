@@ -1,5 +1,9 @@
 /* Formating */
-
+.arrowicon{
+  text-align: center;
+  color: #f9fafa;
+  padding-top: 30px;
+}
 
 .sellingpt1_box{
     border: 0px solid gray;
