@@ -44,36 +44,53 @@ h5 {
     color: #2e2e2e;
 }
 
-p, ul{
+p,
+ul {
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     color: #2e2e2e;
 
 }
 
-input{
+input {
     font-family: 'Lato', sans-serif;
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
     text-decoration: none !important;
     color: inherit;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     text-decoration: none !important;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
-.topbanner_text h1{
+.topbanner_text h1 {
     text-align: center;
     color: #f9fafa;
-  }
-  
-  .topbanner_text h4{
+}
+
+.topbanner_text h4 {
     text-align: center;
     color: #f9fafa;
-  }
+}
+
+.topbanner {
+    display: flex;
+    height: 600px;
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

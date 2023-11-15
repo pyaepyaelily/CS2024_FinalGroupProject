@@ -3,7 +3,7 @@
     overflow: hidden;
 } */
 
-.topbanner {
+/* .topbanner {
     display: flex;
     height: 600px;
     flex-direction: column;
@@ -15,11 +15,11 @@
     background-size: cover;
     color: #fefefe;
     opacity: 0.9;
-}
+} */
 
-.topbanner_text h1{
+/* .topbanner_text h1{
     text-align: center;
-}
+} */
 
 
 /* .topbanner {
@@ -38,8 +38,7 @@
 .topbanner_text h1 {
     color: #2e2e2e;
 } */
-
-
+  
 
 .page-content {
     margin-top: 60px;
