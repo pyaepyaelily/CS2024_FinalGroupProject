@@ -1,0 +1,158 @@
+/* Fonts */
+
+
+
+/* Main */
+.container{
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 80%;
+    height: 900px;
+    background-color: #f9fafa;
+}
+
+/* Left: Details */
+.details-left{
+    width: 35%;
+    float: left;
+    padding-left: 8%;
+    padding-right: 4.5%;
+}
+
+input, option, select{
+    height: 25px;
+    width: 100%;
+    background-color: #FAFAF9;
+    /* color: #6e5e4f; */
+    border: 1px solid #2e2e2e;
+}
+
+textarea {
+    width: 100%;
+    background-color: #f9fafa;
+    /* color: #6e5e4f; */
+    border: 1px solid #2e2e2e;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+.sub-left{
+    width: 90%;
+    float: left;
+    flex-direction: column;
+}
+option{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Right: Cart */
+.cart-right{
+    width: 35%;
+    float: right;
+    padding-left: 4.5%;
+    padding-right: 8%;
+}
+
+.cartItem{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+
+.title-left{
+    width: 45%;
+    float: left;
+}
+
+.icon-right{
+    width: 45%;
+    float: right;
+    margin: auto;
+    margin-top: 3.2%;
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    width: 100%;
+    flex-direction: row;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 15%;
+}
+
+.price{
+    margin-left: 20%;
+    float: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 10%; */
+}
+
+.total-left {
+    width: 45%;
+}
+
+.total-right {
+    width: 45%;
+    text-align: right;
+    margin-right: 6%;
+}
+
+.totalprice-right {
+    width: 45%;
+    text-align: right;
+    margin-right: 6%;
+    margin-top: -6px;
+}
+
+#pay{
+  width: 101%;
+  height: 35px;
+}
+#redeem{
+  width: 100%;
+  height: 35px;
+}
+#note{
+  width: 100%;
+  height: 100px;
+}
+
+/*Place order button*/
+
+.placebutton{
+    display: flex;
+}
+
+.order-btn{
+  background-color: #213555;
+  color: white;
+  border-radius: 0;
+  width: 35%;
+  height: 40px;
+  border: none;
+  margin-top: 100px;
+  float: left;
+}
