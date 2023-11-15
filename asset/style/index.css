@@ -36,7 +36,7 @@
     height: 700px;
     display: flex;
     background-color:#efefef;
-    background-image: url('https://i.pinimg.com/736x/28/0b/6a/280b6a982f24907399f9432dc60b69f4.jpg');
+    background-image: url('https://img.freepik.com/free-vector/flat-abstract-doodle-background_23-2149337654.jpg?w=2000&t=st=1700020301~exp=1700020901~hmac=8110926bcb9c1db9c061974398a4882730875da0b0aeb5b3f7d7a3a80f4c4460');
     /* padding: 50px; */
     /* margin-left: 10%; */
 }
@@ -49,6 +49,7 @@
   display: flex;
   background-color:#f9fafa;
   text-align: center;
+  /* padding-top: -20px; */
 }
 
 .showroom_content{
@@ -56,6 +57,7 @@
   width: 70%;
   height: 60%;
   margin: auto;
+  padding-top: -20px;
   background-color:#f9fafa;
 }
 
