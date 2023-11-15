@@ -123,23 +123,77 @@
     /* margin-left: 5%; */
 }
 
-/* Switches alignment */
-.productDiv{
-    margin: 40px 0 0 0;
-    padding: 10px;
-    padding-bottom: 150px;
+/* Switches guide */
+.switches1_box{
+    border: 0px solid gray;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 50px;
+    background-color:#f9fafa;
+    /* padding: 50px; */
+    /* margin-left: 10%; */
 }
 
-.card{
-    width: 25rem;
-    margin: auto;
+.switches1_content{
+  margin-left: 8%;
+  margin-right: 10%;
+  padding-top:60px;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 330px;
+  border: 0px solid orange;
+
 }
 
-.card-body {
-    justify-content: center;
-    align-items: center;
-    height: 8rem;
+#switches1_img {
+  border: 0px solid orange;
+    text-align: left;
+    color: #c09241;
+    margin-top: 70px;
+    margin-left: 10%;
+    letter-spacing: 5px;
+    height: 330px;
+    width: 100%;
+    /* margin-left: 5%; */
 }
+
+.switches2_box{
+    border: 0px solid gray;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color:#f9fafa;
+    /* padding: 50px; */
+    /* margin-left: 10%; */
+}
+
+.switches2_content {
+  border: 0px solid orange;
+    text-align: left;
+    padding-top:70px;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 10%;
+    height: 330px;
+}
+
+#switches2_img{
+  margin-left: 8%;
+  margin-right: 10%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 330px;
+  border: 0px solid orange;
+
+}
+
+#switches_imgs{
+  height: 330px;
+}
+
 
 /* Transitions */
 
