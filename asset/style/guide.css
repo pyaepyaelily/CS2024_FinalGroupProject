@@ -240,6 +240,9 @@ strong{
   width: 100%;
 }
 
+.components_content ul, li{
+  list-style: initial;
+}
 
 /* Transitions */
 
