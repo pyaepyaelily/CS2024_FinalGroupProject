@@ -14,7 +14,7 @@ class Header extends HTMLElement {
         <div class="header">
             <div class="navbar">
                 <div class="navbar-title">
-                    STASH
+                  <img src="asset/img/logo.png">
                 </div>
                 <div class="navbar-buttons">
                     <a href="login.html">
