@@ -3,13 +3,14 @@
 }
 
 .Cart-Items {
+	position: relative;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-top: 1px solid #a8a8a8; /* Set your desired hr color */
-	padding-top: 40px; /* Adjust the padding as needed */
-  }
+	border-top: 1px solid #a8a8a8;
+	padding-top: 40px;
+}
 
 .image-box {
 	width: 22%;
@@ -20,9 +21,22 @@
 	width: 100%;
 }
 
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background: none;
+	color: #000;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .checkout {
 	float: right;
-	margin-right: 5%;
 	width: 28%;
 }
 
@@ -36,16 +50,6 @@
 	float: right;
 }
 
-.close-button {
-	width: 30px;
-	height: 30px;
-	background: none;
-	color: #000;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 /*------------------------------------------- Quantity Button*/
 button:focus,
 input:focus {
