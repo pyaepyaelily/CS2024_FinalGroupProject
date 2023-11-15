@@ -6,6 +6,8 @@ a {
 .add-to-cart-btn {
   background-color: #213555;
   color: white;
+  border-radius: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .page-content {
@@ -36,7 +38,7 @@ a {
 
 .topbanner_text h1{
   color: #2e2e2e;
-} 
+}
 
 /*-------------------------- Quantity Button*/
 button:focus,
