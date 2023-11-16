@@ -97,6 +97,7 @@
 
   .checkmark {
     position: absolute;
+    margin-top: 2.5px;
     top: 0;
     left: 0;
     right: 0;
@@ -146,5 +147,3 @@
       float: right;
       flex-direction: column;
   }
-
-  

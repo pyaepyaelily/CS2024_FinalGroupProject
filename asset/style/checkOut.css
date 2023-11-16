@@ -33,7 +33,7 @@ input, option, select{
 }
 
 textarea {
-    width: 100%;
+    width: 90%;
     background-color: #f9fafa;
     /* color: #6e5e4f; */
     border: 1px solid #2e2e2e;
