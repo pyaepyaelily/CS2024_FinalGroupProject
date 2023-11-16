@@ -41,7 +41,9 @@
     height: 700px;
     display: flex;
     background-color:#efefef;
-    background-image: url('https://img.freepik.com/free-vector/flat-abstract-doodle-background_23-2149337654.jpg?w=2000&t=st=1700020301~exp=1700020901~hmac=8110926bcb9c1db9c061974398a4882730875da0b0aeb5b3f7d7a3a80f4c4460');
+    background-image: url('https://images.unsplash.com/photo-1532210317995-cc56d90177d9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /* background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+
     /* padding: 50px; */
     /* margin-left: 10%; */
 }
