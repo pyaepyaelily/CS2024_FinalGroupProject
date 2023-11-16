@@ -14,7 +14,9 @@ class Header extends HTMLElement {
         <div class="header">
             <div class="navbar">
                 <div class="navbar-title">
-                  <img src="asset/img/logo.png">
+                  <a href="index.html">
+                    <img src="asset/img/logo.png">
+                  </a>
                 </div>
                 <div class="navbar-buttons">
                     <a href="login.html">
