@@ -28,12 +28,18 @@ hr{
   margin-right: auto;
 }
 
+.content{
+  padding-left: 9.2%;
+  padding-right: 9.2%;
+  margin: auto;
+}
+
 .collapse {
     &:not(.show) {
       display: none;
     }
   }
-  
+
   .collapsing {
     height: 0;
     overflow: hidden;
@@ -57,4 +63,3 @@ hr{
   justify-content: center;
   align-items: center;
 }
-
