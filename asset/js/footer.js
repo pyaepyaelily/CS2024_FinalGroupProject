@@ -17,7 +17,7 @@ class Footer extends HTMLElement {
                       <input type="submit" value="Subscribe">
                     </form>
                   </div>
-       
+
                   <hr>
               </div>
               <div class="footer_menu">
@@ -33,6 +33,7 @@ class Footer extends HTMLElement {
                     <a href="faq.html"><h3>FAQs</h3></a>&nbsp;
                     <!-- <h3>  |  </h3> -->
                     <a href="Contact.html"><h3>Contact Us</h3></a>&nbsp;
+                    <a href="privacy.html"><h3>Privacy Policy</h3></a>&nbsp;
                 </div>
               </div>
 
