@@ -11,11 +11,11 @@
 	align-items: center;
 	border-top: 1px solid #a8a8a8;
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
-hr{
-	size: 1px;
-	color: #a8a8a8;
+.last-item{
+	border-bottom: 1px solid #a8a8a8;
 }
 
 .image-box {
@@ -40,21 +40,6 @@ hr{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.checkout {
-	float: right;
-	width: 28%;
-}
-
-.checkout-btn {
-	background-color: #213555;
-	color: white;
-	border-radius: 0;
-	width: 35%;
-	height: 40px;
-	border: none;
-	float: right;
 }
 
 /*------------------------------------------- Quantity Button*/
@@ -96,10 +81,25 @@ input:focus {
 }
 
 /* ------------------------------------------- Total Amount div */
+.checkout {
+	float: right;
+	width: 30%;
+}
+
+.checkout-btn {
+	background-color: #213555;
+	color: white;
+	border-radius: 0;
+	width: 35%;
+	height: 40px;
+	border: none;
+	float: right;
+}
+
 table {
 	margin-top: 50px;
 	width: 100%;
-	border-collapse: collapse;
+	border-collapse: collapse !important;
 }
 
 td {
@@ -109,6 +109,12 @@ td {
 td:first-child {
 	text-align: left;
 }
+
+
+/* Override Bootstrap's border-bottom-width for all rows */
+table tr td {
+	border-bottom-width: 0 !important;
+  }
 
 td:last-child {
 	text-align: right;
