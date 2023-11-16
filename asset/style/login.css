@@ -35,6 +35,11 @@
     width: 100%;
 }
 
+.policy {
+    text-align: left;
+    width: 100%;
+}
+
 .login label {
     display: block;
     margin-bottom: 5px;
@@ -77,7 +82,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
     color: #2e2e2e;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 0;
   }
 
@@ -141,3 +146,5 @@
       float: right;
       flex-direction: column;
   }
+
+  
