@@ -103,7 +103,7 @@
     right: 0;
     height: 15px;
     width: 15px;
-    background-color: #eee;
+    background-color: #fff;
   }
 
   .check:hover input ~ .checkmark {
