@@ -76,3 +76,21 @@ input:focus {
   max-width: 50px;
   background-color: transparent;
 }
+
+@media (max-width: 950px) {
+ .col-6{
+  width: 100%;
+  padding-bottom: 60px;
+ }
+ .productImg_div {
+  width: 100%; /* Adjust the width as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productImg_div img {
+  max-width: 100%; /* Set the maximum width of the image to 100% */
+  height: auto; /* Maintain the aspect ratio */
+}
+}

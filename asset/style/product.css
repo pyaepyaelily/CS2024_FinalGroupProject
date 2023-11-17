@@ -61,6 +61,7 @@ a {
   .card,
   .card-body {
     width: 200px;
+    height: auto;
   }
 
   .col {
@@ -69,7 +70,6 @@ a {
 }
 
 @media screen and (max-width: 875px) {
-
   .card,
   .card-body {
     width: 300px;
