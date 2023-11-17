@@ -53,8 +53,11 @@ a {
     height: 8rem;
 }
 
-@media (max-width: 987px) {
+@media (max-width: 1615px) {
     .col {
         padding-bottom: 30px;
     }
+    /* .card{
+        width: auto;
+    } */
 }

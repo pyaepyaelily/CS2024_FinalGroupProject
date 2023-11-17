@@ -53,6 +53,7 @@ a {
   .card,
   .card-body {
     width: 300px;
+    height: 9rem;
   }
 }
 
@@ -61,7 +62,7 @@ a {
   .card,
   .card-body {
     width: 200px;
-    height: auto;
+    height: 12rem;
   }
 
   .col {
@@ -70,20 +71,15 @@ a {
 }
 
 @media screen and (max-width: 920px) {
+
   .card,
   .card-body {
     width: 300px;
+    height: 9rem;
   }
 
-  .col-sm-12{
-    background-color: red;
+  .col-sm-12 {
     padding-bottom: 30px;
   }
 
-  /* .productDiv{
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
 }
