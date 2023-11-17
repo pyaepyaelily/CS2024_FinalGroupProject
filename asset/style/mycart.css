@@ -14,7 +14,7 @@
 	padding-bottom: 40px;
 }
 
-.last-item{
+.last-item {
 	border-bottom: 1px solid #a8a8a8;
 }
 
@@ -110,12 +110,35 @@ td:first-child {
 	text-align: left;
 }
 
-
-/* Override Bootstrap's border-bottom-width for all rows */
 table tr td {
 	border-bottom-width: 0 !important;
-  }
+}
 
 td:last-child {
 	text-align: right;
+}
+
+/* Media query for screens less than 984px */
+@media (max-width: 984px) {
+	.Cart-Items {
+		flex-direction: column;
+	}
+
+	.image-box {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.about {
+		text-align: center;
+		/* Center the text horizontally only for screens less than 984px */
+	}
+
+	.checkout-btn {
+		min-width: 0;
+		/* Allow the button to shrink */
+		width: 100%;
+		/* Take up the full width of the container */
+	}
+
 }
