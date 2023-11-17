@@ -134,7 +134,7 @@ td:last-child {
 		/* Center the text horizontally only for screens less than 984px */
 	}
 
-	.checkout-btn {
+	.checkout-btn, .checkout {
 		min-width: 0;
 		/* Allow the button to shrink */
 		width: 100%;
