@@ -44,10 +44,11 @@ h5 {
     color: #2e2e2e;
 }
 
-p,
+p, span,
 ul {
     font-family: 'Lato', sans-serif;
-    font-weight: lighter;
+    /* font-weight: lighter; */
+    font-weight: normal;
     color: #2e2e2e;
 
 }
