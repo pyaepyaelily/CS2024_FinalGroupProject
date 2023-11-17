@@ -69,9 +69,21 @@ a {
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 920px) {
   .card,
   .card-body {
     width: 300px;
   }
+
+  .col-sm-12{
+    background-color: red;
+    padding-bottom: 30px;
+  }
+
+  /* .productDiv{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 }

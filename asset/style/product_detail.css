@@ -35,7 +35,7 @@ a {
   opacity: 0.8;
 }
 
-.topbanner_text h1{
+.topbanner_text h1 {
   color: #2e2e2e;
 }
 
@@ -77,20 +77,25 @@ input:focus {
   background-color: transparent;
 }
 
-@media (max-width: 950px) {
- .col-6{
-  width: 100%;
-  padding-bottom: 60px;
- }
- .productImg_div {
-  width: 100%; /* Adjust the width as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@media (max-width: 991px) {
+  /* .col-md-12{
+    width: 100%;
+    padding-bottom: 60px;
+  } */
+  .col-md-12{
+    background-color: red;
+    padding-top: 30px;
+  }
 
-.productImg_div img {
-  max-width: 100%; /* Set the maximum width of the image to 100% */
-  height: auto; /* Maintain the aspect ratio */
-}
+  /* .productImg_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .productImg_div img {
+    max-width: 100%;
+    height: auto;
+  } */
 }
