@@ -49,13 +49,14 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
 </head>
+<header-component></header-component>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDD9ZKDP" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <header-component></header-component>
+
   <div class="topbanner">
     <div class="topbanner_text">
       <h1>GUIDE</h1>
@@ -63,216 +64,239 @@
     </div>
   </div>
 
-  <div class="wrapper">
-    <div class="component_backgound">
-      <div class="guide_header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col guide_header">
         <div class="heading">
           <h2>Structure of a mechanical keyboard</h2>
         </div>
         <p>Understanding the different components to a mechanical keyboard</p>
       </div>
+    </div>
 
-      <div class="hidden">
+    <!-- Component -->
+    <div class="hidden">
+      <div class="row components_box">
+        <div class="col-md-12 col-lg-5 col-sm-12">
+          <h4>Fucntions of the different parts</h4>
+          <ul>
+            <li>
+              Key Switches: Determine typing feel and include options like linear, tactile, clicky and silent
+              switches.
+            </li>
+            <li>
+              Keycaps: Visible and touchable parts that can be customised for both aesthetics and
+              feel.
+            </li>
+            <li>
+              PCB (Printed Circuit Board): Acts as the central nervous system, responsible for
+              communicating with the computer.
+            </li>
+            <li>
+              Shell/Case and Mounting Plate: House the components and can be customised.
+            </li>
+            <li>
+              Backlighting: Enhances visibility and aesthetics; customisable RGB lighting options
+              available.
+            </li>
+          </ul>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-md-12 col-lg-6 col-sm-12 justify-content-center component_ImgDiv">
+          <img class="img-fluid switches_imgs" src="asset/img/guide/components.png"
+            alt="Overview of switch's component">
+        </div>
+      </div>
+    </div>
 
-        <!-- Switches2  -->
-        <div class="hidden">
-          <div class="components_box">
-            <div class="components_content">
-              <h4>Fucntions of the different parts</h4>
-              <p>
-              <ul>
-                <li>
-                  Key Switches: Determine typing feel and include options like linear, tactile, clicky and silent
-                  switches.
-                </li>
-                <li>
-                  Keycaps: Visible and touchable parts that can be customised for both aesthetics and
-                  feel.
-                </li>
-                <li>
-                  PCB (Printed Circuit Board): Acts as the central nervous system, responsible for
-                  communicating with the computer.
-                </li>
-                <li>
-                  Shell/Case and Mounting Plate: House the components and can be customised.
-                </li>
-                <li>
-                  Backlighting: Enhances visibility and aesthetics; customisable RGB lighting options
-                  available.
-                </li>
-              </ul>
-              </p>
-            </div>
-            <div id="components_img">
-              <img src="asset/img/guide/components.png" id="switches_imgs">
-            </div>
-          </div>
+    <!-- Switch -->
+    <div class="row">
+      <div class="col switch_header">
+        <div class="heading">
+          <h2>Switches</h2>
+        </div>
+        <p>Discovering the typing sensation that suits your preference.</p>
+      </div>
+    </div>
+
+    <!-- Linear Switch -->
+    <div class="hidden">
+      <div class="row linearSwitch_box">
+        <div class="col-md-12 col-lg-5 col-sm-12 justify-content-center linearSwitch_ImgDiv">
+          <img class="img-fluid switches_imgs" src="asset\img\switches\switch_Linear.jpg"
+            alt="An image of a tactile switch">
         </div>
 
+        <div class="col-1"></div>
+        <div class="col-md-12 col-lg-6 col-sm-12">
+          <h4>Linear</h4>
+          <br>
+          <p><strong>Characteristics:</strong> Linear switches provide a smooth and consistent keystroke without
+            any tactile bump or audible click. The keypress is linear from top to bottom, making them popular
+            among
+            gamers for rapid key presses and quick response times.</p>
+          <br>
+          <p><strong>Typing Experience: </strong> Users who prefer a straightforward and uninterrupted keystroke
+            often favour linear switches. They are also relatively quiet compared to tactile and clicky switches.
+          </p>
+        </div>
+      </div>
+    </div>
 
-        <div class="switches">
-          <div class="guide_header">
-            <div class="heading">
-              <h2>Switches</h2>
-            </div>
-            <p>Discovering the typing sensation that suits your preference.</p>
-          </div>
+    <!-- Tactile Switch -->
+    <div class="hidden">
+      <div class="row tactileSwitch_box">
+        <div class="col-md-12 col-lg-5 col-sm-12">
+          <h4>Tactile</h4>
+          <br>
+          <p><strong>Characteristics:</strong> Tactile switches have a noticeable bump in the middle of the
+            keystroke,
+            providing tactile feedback to the user. This feedback helps users know when a key has been actuated
+            without
+            bottoming out the key.</p>
+          <br>
+          <p><strong>Typing Experience: </strong> Tactile switches are popular among writers and programmers who
+            appreciate
+            the feedback, as it can reduce typing fatigue and increase typing speed by preventing accidental key
+            presses.</p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-md-12 col-lg-6 col-sm-12 justify-content-center component_ImgDiv">
+          <img class="img-fluid switches_imgs" src="asset\img\switches\switch_Tactile.jpg"
+            alt="An image of a tactile switch">
+        </div>
+      </div>
+    </div>
 
-          <!-- Switches1  -->
-          <div class="hidden">
-            <div class="switches1_box">
-              <div id="switches1_img">
-                <img src="asset\img\switches\switch_Linear.jpg" id="switches_imgs" alt="An image of a linear switch">
-              </div>
-              <div class="switches1_content">
-                <h4>Linear</h4>
-                <br>
-                <p><strong>Characteristics:</strong> Linear switches provide a smooth and consistent keystroke without
-                  any tactile bump or audible click. The keypress is linear from top to bottom, making them popular
-                  among
-                  gamers for rapid key presses and quick response times.</p>
-                <br>
-                <p><strong>Typing Experience: </strong> Users who prefer a straightforward and uninterrupted keystroke
-                  often favour linear switches. They are also relatively quiet compared to tactile and clicky switches.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <!-- Switches2  -->
-          <div class="hidden">
-            <div class="switches2_box">
-              <div class="switches2_content">
-                <h4>Tactile</h4>
-                <br>
-                <p><strong>Characteristics:</strong> Tactile switches have a noticeable bump in the middle of the
-                  keystroke,
-                  providing tactile feedback to the user. This feedback helps users know when a key has been actuated
-                  without
-                  bottoming out the key.</p>
-                <br>
-                <p><strong>Typing Experience: </strong> Tactile switches are popular among writers and programmers who
-                  appreciate
-                  the feedback, as it can reduce typing fatigue and increase typing speed by preventing accidental key
-                  presses.</p>
-              </div>
-              <div id="switches2_img">
-                <img src="asset\img\switches\switch_Tactile.jpg" id="switches_imgs" alt="An image of a tactile switch">
-              </div>
-            </div>
-          </div>
-
-          <!-- Switches3  -->
-          <div class="hidden">
-            <div class="switches1_box">
-              <div id="switches1_img">
-                <img src="asset\img\switches\switch_Clicky.jpg" id="switches_imgs" alt="An image of a clicky switch">
-              </div>
-              <div class="switches1_content">
-                <h4>Clicky</h4>
-                <br>
-                <p><strong>Characteristics:</strong> Clicky switches combine tactile feedback with an audible click
-                  sound during
-                  keypress. The click provides both physical and auditory confirmation of key actuation.</p>
-                <br>
-                <p><strong>Typing Experience: </strong> Clicky switches are often favoured by users who enjoy the
-                  audible feedback,
-                  and the distinct click can enhance the overall typing experience. However, they may not be suitable
-                  for quiet
-                  environments.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Switches4  -->
-          <div class="hidden">
-            <div class="switches2_box">
-              <div class="switches2_content">
-                <h4>Silent</h4>
-                <br>
-                <p><strong>Characteristics:</strong> Silent switches aim to minimise noise during keypress without
-                  sacrificing the
-                  tactile or linear characteristics. They often incorporate dampeners or special mechanisms to reduce
-                  the sound produced
-                  during key actuation.</p>
-                <br>
-                <p><strong>Typing Experience: </strong> Silent switches are ideal for environments where noise is a
-                  concern, such as
-                  offices or shared spaces. They offer a more discreet typing experience while maintaining the tactile
-                  or linear feel
-                  depending on the specific switch design.</p>
-              </div>
-              <div id="switches2_img">
-                <img src="asset\img\switches\switch_Silent.jpg " id="switches_imgs" alt="An image of a silent switch">
-              </div>
-            </div>
-          </div>
+    <!-- Clicky Switch -->
+    <div class="hidden">
+      <div class="row clickySwitch_box">
+        <div class="col-md-12 col-lg-5 col-sm-12 justify-content-center clickySwitch_ImgDiv">
+          <img class="img-fluid switches_imgs" src="asset\img\switches\switch_Clicky.jpg"
+            alt="An image of a clicky switch">
         </div>
 
-        <div class="assembly_background">
-          <div class="guide_header">
-            <div class="heading">
-              <h2>Assembly </h2>
-            </div>
-            <p>The most exciting part of owning a mechanical keyboard</p>
-          </div>
-
-          <div class="assembly_background_box">
-            <div class="hidden">
-              <div class="assembly_box">
-                <div id="assembly_img">
-                  <img src="asset\img\guide\assembly_bareboneKeyboard.jpg" id="assembly_imgs"
-                    alt="Compact black keyboard with limited keys, perfect for minimalistic setups.">
-                </div>
-                <div class="assembly_content">
-                  <h4>1. Unpack the keyboard kit</h4><br>
-                  <p>
-                    Place the barebone keyboard on a flat surface. The grids with diagonal sockets / crosses are
-                    for your mechanical key switches</p>
-                </div>
-              </div>
-
-              <div class="assembly_box">
-                <div id="assembly_img">
-                  <img src="asset\img\guide\assembly_Switches.jpg" id="assembly_imgs"
-                    alt="Detailed view of a mechanical keyboard's switch-filled surface.">
-                </div>
-                <div class="assembly_content">
-                  <h4>2. Unpack and secure the switches</h4><br>
-                  <p>Align the diagonal metal pins on the switch with the sockets/crosses on the barebone keyboard.</p>
-                  <p>Gently press down until you hear a clear click, indicating that the switch is securely in place.
-                  </p>
-                </div>
-              </div>
-
-              <div class="assembly_box">
-                <div id="assembly_img">
-                  <img src="asset\img\guide\assembly_Keycaps.jpg" id="assembly_imgs"
-                    alt="Black and silver mechanical keyboard with a lot of keycaps">
-                </div>
-                <div class="assembly_content">
-                  <h4>3. Decoration</h4><br>
-                  <p>Align the cross located at the back of the keycap to the cross on the switch and press down firmly
-                    to secure it in place.</p>
-                </div>
-              </div>
-
-              <div class="assembly_box_last">
-                <div id="assembly_img">
-                  <img src="asset\img\guide\assembly_Keyboard.jpg" id="assembly_imgs"
-                    alt="A mechanical keyboard, white in color, placed on a table, ready for use.">
-                </div>
-                <div class="assembly_content">
-                  <h4>CONGRATULATIONS!</h4><br>
-                  <p>You have just successfully assembled your very own mechanical keyboard.</p>
-                  <p>Try it out now!</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
+        <div class="col-1"></div>
+        <div class="col-md-12 col-lg-6 col-sm-12">
+          <h4>Clicky</h4>
+          <br>
+          <p><strong>Characteristics:</strong> Clicky switches combine tactile feedback with an audible click
+            sound during
+            keypress. The click provides both physical and auditory confirmation of key actuation.</p>
+          <br>
+          <p><strong>Typing Experience: </strong> Clicky switches are often favoured by users who enjoy the
+            audible feedback,
+            and the distinct click can enhance the overall typing experience. However, they may not be suitable
+            for quiet
+            environments.</p>
         </div>
-        <footer-component></footer-component>
+      </div>
+    </div>
+
+    <!-- Silent Switch -->
+    <div class="hidden">
+      <div class="row silentSwitch_box">
+        <div class="col-md-12 col-lg-5 col-sm-12">
+          <h4>Silent</h4>
+          <br>
+          <p><strong>Characteristics:</strong> Silent switches aim to minimise noise during keypress without
+            sacrificing the
+            tactile or linear characteristics. They often incorporate dampeners or special mechanisms to reduce
+            the sound produced
+            during key actuation.</p>
+          <br>
+          <p><strong>Typing Experience: </strong> Silent switches are ideal for environments where noise is a
+            concern, such as
+            offices or shared spaces. They offer a more discreet typing experience while maintaining the tactile
+            or linear feel
+            depending on the specific switch design.</p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-md-12 col-lg-6 col-sm-12 justify-content-center silentSwitch_ImgDiv">
+          <img class="img-fluid switches_imgs" src="asset\img\switches\switch_Silent.jpg"
+            alt="An image of a tactile switch">
+        </div>
+      </div>
+    </div>
+
+    <!-- Assembly -->
+    <div class="row">
+      <div class="col assembly_header">
+        <div class="heading">
+          <h2>Assembly </h2>
+        </div>
+        <p>The most exciting part of owning a mechanical keyboard</p>
+      </div>
+    </div>
+
+    <!-- Assembly Steps -->
+    <div class="hidden">
+      <!-- Step 1 -->
+      <div class="row assembly_box">
+        <div class="col-2"></div>
+        <div class="col-md-12 col-lg-4 col-sm-12 justify-content-center">
+          <img class="img-fluid assembly_imgs" src="asset\img\guide\assembly_bareboneKeyboard.jpg"
+            alt="Compact black keyboard with limited keys, perfect for minimalistic setups.">
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12">
+          <h4>1. Unpack the keyboard kit</h4><br>
+          <p>
+            Place the barebone keyboard on a flat surface. The grids with diagonal sockets / crosses are
+            for your mechanical key switches</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="row assembly_box">
+        <div class="col-2"></div>
+        <div class="col-md-12 col-lg-4 col-sm-12 justify-content-center">
+          <img class="img-fluid assembly_imgs" src="asset\img\guide\assembly_Switches.jpg"
+            alt="Detailed view of a mechanical keyboard's switch-filled surface.">
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12">
+          <h4>2. Unpack and secure the switches</h4><br>
+          <p>Align the diagonal metal pins on the switch with the sockets/crosses on the barebone keyboard.</p>
+          <p>Gently press down until you hear a clear click, indicating that the switch is securely in place.
+          </p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="row assembly_box">
+        <div class="col-2"></div>
+        <div class="col-md-12 col-lg-4 col-sm-12 justify-content-center">
+          <img class="img-fluid assembly_imgs" src="asset\img\guide\assembly_Keycaps.jpg"
+            alt="Black and silver mechanical keyboard with a lot of keycaps">
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12">
+          <h4>3. Decoration</h4><br>
+          <p>Align the cross located at the back of the keycap to the cross on the switch and press down firmly
+            to secure it in place.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="row assembly_box">
+        <div class="col-2"></div>
+        <div class="col-md-12 col-lg-4 col-sm-12 justify-content-center">
+          <img class="img-fluid assembly_imgs" src="asset\img\guide\assembly_Keyboard.jpg"
+            alt="A mechanical keyboard, white in color, placed on a table, ready for use.">
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12">
+          <h4>CONGRATULATIONS!</h4><br>
+          <p>You have just successfully assembled your very own mechanical keyboard.</p>
+          <p>Try it out now!</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </div>
+
 </body>
+<footer-component></footer-component>
 
 </html>
