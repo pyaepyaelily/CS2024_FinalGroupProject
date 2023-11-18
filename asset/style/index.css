@@ -246,3 +246,17 @@
 .modal-footer, .modal-header{
   background-color: #efefef;
 }
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+  align-items: center;
+}
+
+.aboutus p {
+  text-align: center;
+  width: 50%;
+}
