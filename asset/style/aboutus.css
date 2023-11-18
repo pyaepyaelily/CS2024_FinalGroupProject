@@ -72,13 +72,15 @@
     flex-direction: column;
   }
 
-  .col-5,
+ 
+
+  /* .col-5,
   .col-6 {
     text-align: center;
-  }
+  } */
 
-  .col-5 {
+  /* .col-5 {
     order: 2;
     padding-top: 30px;
-  }
+  }  */
 }

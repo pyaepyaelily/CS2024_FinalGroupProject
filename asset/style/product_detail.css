@@ -83,19 +83,6 @@ input:focus {
     padding-bottom: 60px;
   } */
   .col-md-12{
-    background-color: red;
     padding-top: 30px;
   }
-
-  /* .productImg_div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-  /* .productImg_div img {
-    max-width: 100%;
-    height: auto;
-  } */
 }
