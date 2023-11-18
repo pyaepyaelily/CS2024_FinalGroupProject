@@ -13,12 +13,20 @@
     })(window, document, 'script', 'dataLayer', 'GTM-NDD9ZKDP');</script>
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
-  <!-- Own styling -->
+  <title>Contact Us - Stash Keyboards</title>
+  <meta name="description"
+    content="Contact Stash Keyboards and let us know how we can assist you. Feel free to reach out for any inquiries, feedback, or assistance related to our products or services." />
+  <meta name="keywords"
+    content="Contact Stash Keyboards, Customer Support, Feedback, Inquiries, Stash Keyboards Contact" />
+
+
+  <!-- Own styles and js -->
   <link rel="stylesheet" href="asset/style/contactus.css">
   <link rel="stylesheet" href="asset/style/general.css">
+  <script src="asset/js/header.js" type="text/javascript" defer></script>
+  <script src="asset/js/footer.js" type="text/javascript" defer></script>
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -32,11 +40,9 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- Others -->
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
-  <script src="asset/js/header.js" type="text/javascript" defer></script>
-  <script src="asset/js/footer.js" type="text/javascript" defer></script>
   <script defer src="asset/js/animation.js"></script>
   <script defer src="asset/js/carousel.js"></script>
   <script defer src="asset/js/popup.js"></script>
@@ -53,29 +59,28 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div>
-    <div class="container">
-        <div class="image">
-            <img src="asset/img/cu.png">
-        </div>
-        <div class="contactUs">
-            <div class = "contact_header">
-                <h1>CONTACT US</h1>
-                <p>Let us know how we can help you.</p>
-            </div>
-            <form name="jobForm" action="contactus.php" method="POST">
-                <input type="text" name="name" id="name" required="1" placeholder="Your Name">
-                <br><br>
-                <input type="email" id="email" required="1" placeholder="Your email">
-                <br><br>
-                <input type="text" name="reason" id="reason" required="1" placeholder="Reason for Contacting Us">
-                <br><br>
-                <textarea name="note" id="note" rows="6" style="width: 100%;" placeholder="Feedback"></textarea>
-                <input type="submit" value="Send a Message">
-            </form>
-        </div>
+  <div class="container">
+    <div class="image">
+      <img src="asset/img/contactUs.png">
     </div>
-    <footer-component></footer-component>
+    <div class="contactUs">
+      <div class="contact_header">
+        <h1>CONTACT US</h1>
+        <p>Let us know how we can help you.</p>
+      </div>
+      <form name="jobForm">
+        <input type="text" name="name" id="name" required="1" placeholder="Your Name">
+        <br><br>
+        <input type="email" id="email" required="1" placeholder="Your email">
+        <br><br>
+        <input type="text" name="reason" id="reason" required="1" placeholder="Reason for Contacting Us">
+        <br><br>
+        <textarea name="note" id="note" rows="6" style="width: 100%;" placeholder="Feedback"></textarea>
+        <input type="submit" value="Send a Message">
+      </form>
+    </div>
+  </div>
+  <footer-component></footer-component>
 </body>
 
 </html>
