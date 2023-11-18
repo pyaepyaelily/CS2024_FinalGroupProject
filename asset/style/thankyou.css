@@ -1,16 +1,35 @@
-body{
-	margin: 0;
-	padding: 0;
-	background: linear-gradient(to bottom right, #E3F0FF, #fff8e7);
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-
-.thank-you {
-	 font-family: 'Cambria';
-    font-size: 35px;
+.thankyou-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     text-align: center;
 }
+
+.thankyou{
+    width: 50%;
+    padding: 20px;
+}
+
+.thankyou a {
+  text-decoration: underline;
+  color: inherit;
+  display: inline-block;
+}
+
+.thankyou-header {
+    margin-bottom: 50px;
+}
+
+button {
+	padding: 13px;
+	height: 50px;
+	width: 100px;
+	border: 1px solid #213555;
+	background-color: #213555;
+	color: #ece2d6;
+	border-radius: 0;
+	font-family: 'Lato', sans-serif;
+  }
