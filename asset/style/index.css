@@ -13,6 +13,23 @@
   color: #f9fafa;
 }
 
+.modal-header{
+  padding: 20px 10% 20px 10%;
+}
+
+.modal-body{
+  padding: 55px 5% 55px 5%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efefef;
+}
+
+.modal-content{
+  padding: 0px 2% 0px 2%;
+}
+
+
+
 .arrowicon {
   text-align: center;
   color: #f9fafa;

@@ -28,7 +28,7 @@ class Header extends HTMLElement {
                 </div>
             </div>
             <div class="navbar-row">
-                <a href="homePage.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="aboutus.html">About Us</a>
                 <a href="cat.html">Shop Now</a>
                 <a href="guide.html">Guide</a>
