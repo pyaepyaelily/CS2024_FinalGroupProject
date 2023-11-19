@@ -86,6 +86,72 @@
   padding-top: 20px;
 }
 
+.card-body-clicky::after{
+  position: absolute;
+  content: 'No. 1 seller';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #213555;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+.card-body-rainbow::after{
+  position: absolute;
+  content: 'No. 2 seller';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #213555;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+.card-body-silent::after{
+  position: absolute;
+  content: 'No. 3 seller';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #213555;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+.card-body-tactile::after{
+  position: absolute;
+  content: 'No. 4 seller';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #213555;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+.card-body-artist::after{
+  position: absolute;
+  content: 'No. 5 seller';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #213555;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item>div {
