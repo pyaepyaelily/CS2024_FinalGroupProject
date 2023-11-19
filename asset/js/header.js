@@ -15,15 +15,15 @@ class Header extends HTMLElement {
             <div class="navbar">
                 <div class="navbar-title">
                   <a href="index.html">
-                    <img src="asset/img/logo.png">
+                    <img src="asset/img/logo.png" alt="Stash logo">
                   </a>
                 </div>
                 <div class="navbar-buttons">
                     <a href="login.html">
-                        <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/gender-neutral-user.png" alt="gender-neutral-user"/>
+                        <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/gender-neutral-user.png" alt="login icon"/>
                     </a>
                     <a href="mycart.html">
-                        <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/shopping-cart.png" alt="shopping-cart"/>
+                        <img width="25" height="25" src="https://img.icons8.com/windows/32/2e2e2e/shopping-cart.png" alt="shopping-cart icon"/>
                     </a>
                 </div>
             </div>
