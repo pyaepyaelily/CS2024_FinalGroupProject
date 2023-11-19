@@ -160,7 +160,9 @@
 border: 0px solid orange;
 width: 85%;
 height: 75%;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
 display: flex;
 background-color:#f9fafa;
 text-align: center;
@@ -170,8 +172,10 @@ text-align: center;
 .showroom_content{
 border: 0px solid gray;
 width: 70%;
-height: 60%;
-margin: auto;
-padding-top: -20px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 6%;
+text-align: center;
 background-color:#f9fafa;
 }

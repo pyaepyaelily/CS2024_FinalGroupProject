@@ -14,7 +14,7 @@ class Footer extends HTMLElement {
                   <div class="subscribe">
                     <form id="subscriptionForm" action="subscription.php" method="POST">
                       <input type="email" name="email" id="email" placeholder="Enter your email address">
-                      <input type="submit" value="Subscribe">
+                      <a href="subscription.html"><button type="button" class="Subscribe">Subscribe</button></a>
                     </form>
                   </div>
 
