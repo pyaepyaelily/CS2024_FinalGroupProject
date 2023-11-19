@@ -47,6 +47,16 @@
     <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="asset/favicon_io/site.webmanifest">
 
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            // Prevent the default form submission
+            event.preventDefault();
+
+            // Redirect to index.html
+            window.location.href = 'index.html';
+        });
+    </script>
+
 </head>
 
 <body style="background-color: #efefef;">
@@ -61,7 +71,7 @@
                 <h1>Log In</h1>
                 <p>Welcome back. Sign in for a faster checkout.</p>
             </div>
-            <form>
+            <form id="loginForm">
                 <div class="form-group">
                     <label for="exampleInputEmail1">
                         <p>Email address</p>
@@ -79,6 +89,7 @@
                 </a>
                 <p>Don't have an account with us? <a href="signUp.html" style="text-decoration: underline">Sign Up
                         Now!</a></p>
+                <!-- <a href="index.html"><button type="submit" class="btn btn-primary">Submit</button></a> -->
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>

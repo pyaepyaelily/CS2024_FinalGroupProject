@@ -72,7 +72,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.subscribe input[type=submit] {
+.subscribe button {
     padding: 13px;
     margin-left: 15px;
     /* margin-right: 12%; */
